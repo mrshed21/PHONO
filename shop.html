@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Samsung Z fold6</title>
+  </head>
+  <body>
+    <div class="container-nav">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="photos/logo.png" alt="logo" width="125px"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Mobiltelefoner</a></li>
+            <li><a href="kontakta.html">Kontakta oss</a></li>
+          </ul>
+        </nav>
+        <div class="konto-cart">
+          <a class="login-sec" href="login.html">Mitt Konto</a>
+
+          <a class="cart-icon" href="cart.html"
+            ><img src="./photos/cart.png" alt="card" width="30px" height="30px"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <section class="phones-section">
+      <section class="produkt-sektion">
+        <div class="bildgalleri">
+            <img id="huvudBild" src="photos/z001.avif" alt="Samsung Galaxy Z Fold6" class="huvudbild">
+            
+            <div class="miniatyr-container">
+                <img src="photos/z001.avif" alt="Framsida" class="miniatyr aktiv" onclick="bytBild(this, 'photos/z001.avif')">
+                <img src="photos/z002.avif" alt="Baksida" class="miniatyr" onclick="bytBild(this, 'photos/z002.avif')">
+                <img src="photos/z003.avif" alt="Hopfälld" class="miniatyr" onclick="bytBild(this, 'photos/z003.avif')">
+                <img src="photos/z004.avif" alt="Öppen" class="miniatyr" onclick="bytBild(this, 'photos/z004.avif')">
+            </div>
+        </div>
+        
+        
+        <div class="produkt-alternativ">
+            <h1 class="produkt-titel">Samsung Galaxy Z Fold6</h1>
+            <p class="produkt-beskrivning">En uppfällbar smartphone med 7,6 tums dynamisk AMOLED-skärm, Snapdragon 8 Gen 3-processor och professionell trippelkamera.</p>
+          
+            <div class="alternativ-grupp">
+                <span class="alternativ-titel">Lagringskapacitet:</span>
+                <div class="alternativ-knappar">
+                    <button class="spec-knapp vald" onclick="valjSpec(this )">256GB</button>
+                    <button class="spec-knapp" onclick="valjSpec(this)">512GB</button>
+                    <button class="spec-knapp" onclick="valjSpec(this)">1TB</button>
+                </div>
+            </div>
+            
+            
+            <div class="alternativ-grupp">
+                <span class="alternativ-titel">RAM-minne:</span>
+                <div class="alternativ-knappar">
+                    <button class="spec-knapp vald" onclick="valjSpec(this)">12GB</button>
+                    <button class="spec-knapp" onclick="valjSpec(this)">16GB</button>
+                </div>
+            </div>
+            
+          
+            <div class="alternativ-grupp">
+                <span class="alternativ-titel">Avbetalningstid:</span>
+                <div class="alternativ-knappar">
+                    <button class="spec-knapp vald" onclick="valjSpec(this)">12 mån</button>
+                    <button class="spec-knapp" onclick="valjSpec(this)">24 mån</button>
+                    <button class="spec-knapp" onclick="valjSpec(this)">36 mån</button>
+                </div>
+                <p class="avbetalning">Utan ränta för kvalificerade kort</p>
+            </div>
+            
+           
+            <div class="pris-sektion">
+                <span>Slutpris:</span>
+                <div class="slutpris">14 999 kr</div>
+                <button class="kundkorg">Lägg i varukorg</button>
+            </div>
+        </div>
+    </section>
+
+
+    </section>
+    <footer class="main-footer">
+      <p>&copy; 2025 PHONO. Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
