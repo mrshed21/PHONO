@@ -43,7 +43,12 @@
     border-color: var(--hover-color);
     transform: scale(1.05);
 }
-
+.phones-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
 
 .produkt-alternativ {
     flex: 1;
